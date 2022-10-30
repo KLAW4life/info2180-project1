@@ -74,6 +74,7 @@ header ul li{
     grid-template-rows: 1fr ;
     column-gap: 20px;
     padding: 10px;
+    padding-bottom: 20px;
 }
 
 .learn-about .card{
@@ -103,12 +104,18 @@ header ul li{
     display: flex;
     width: 650px;
     margin: auto;
-    padding: 40px;
+    padding: 80px;
+}
+
+.testing .description{
+    margin: auto;
+    padding: 80px;
 }
 
 .cta{
     margin: auto;
     justify-content: center;
+    width: 350px;
 }
 
 .cta a{
@@ -129,6 +136,8 @@ header ul li{
 
 .stories .container{
     padding-left: 100px;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 
 .stories img{
@@ -172,11 +181,15 @@ header ul li{
 .newsletter .container{
     width: 650px;
     margin: auto;
-    padding: 40px;
+    padding: 80px;
 }
 
 form{
     display: flex;   
+}
+
+.newsletter h3{
+    text-align: center;
 }
 
 .form-group{
