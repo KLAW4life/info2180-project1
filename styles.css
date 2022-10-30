@@ -39,15 +39,15 @@ header ul li{
     width: 100%;
 }
 
+.overview-hero{
+    background-color: #E2E8F0;
+    clear: both;
+}
+
 .overview-hero-image img {
     width: 250px;
     height: 200px;
     padding: 20px;
-}
-
-.overview-hero{
-    background-color: #E2E8F0;
-    clear: both;
 }
 
 .overview-hero .container{
@@ -59,9 +59,13 @@ header ul li{
     margin: auto;
 }
 
-.learn-about{
+.learn-about h2{
     font-size: 24px;
     color: #48BB78;
+}
+
+.learn-about{
+    clear: both;
 }
 
 .learn-about .cards{
@@ -74,9 +78,11 @@ header ul li{
 
 .learn-about .card{
     grid-row: 1;
+    border: 3px solid;
     border-color: #E2E8F0;
     border-radius: 5px;
-    box-shadow: 5px 5px #888888;  
+    box-shadow: 3px 3px #888888;  
+    padding: 20px;
 }
 
 .learn-about .card img{
@@ -87,22 +93,6 @@ header ul li{
 .learn-about .card h3{
     color: #48BB78 ;
     font-size: 21px;
-}
-
-.cta{
-    margin: auto;
-    justify-content: center;
-
-}
-
-.cta a{
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: #48BB78;
-    color: white;
-    border-radius: 5px;
 }
 
 .testing{
@@ -117,6 +107,21 @@ header ul li{
     width: 650px;
     margin: auto;
     padding: 80px;
+}
+
+.cta{
+    margin: auto;
+    justify-content: center;
+}
+
+.cta a{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #48BB78;
+    color: white;
+    border-radius: 5px;
 }
 
 .stories .article{
