@@ -21,11 +21,14 @@ header a:hover{
 
 header h1{
     float: left;
+    font-size: 18px;
+    padding: 20px;
 }
 
 header ul {
     float: right;
     padding-top: 15px;
+    
 }
 
 header ul li{
