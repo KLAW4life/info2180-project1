@@ -105,6 +105,7 @@ header ul li{
     width: 650px;
     margin: auto;
     padding: 80px;
+    column-gap: 100px;
 }
 
 .testing .description{
@@ -115,7 +116,7 @@ header ul li{
 .cta{
     margin: auto;
     justify-content: center;
-    width: 350px;
+    column-width: 400px;
 }
 
 .cta a{
@@ -185,32 +186,30 @@ header ul li{
 }
 
 form{
-    display: flex;   
+  display: grid;
+  grid: 50px / 345px 240px;
 }
 
 .newsletter h3{
     text-align: center;
 }
 
-.form-group{
-    padding: 7px;
-}
-
 input[type=email]{
     padding: 20px;
     border-radius: 10px;
-    width: 250px;
+    width: 290px;
 }
 
 button[type=submit]{
     padding-top: 5px;
+    width: 150px;
+    height: 60px;
     padding-bottom: 5px;
     padding-left: 40px;
     padding-right: 40px;
     border-radius: 10px;
     background-color: #5A67D8;
     color: white;
-
 }
 
 footer{
