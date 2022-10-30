@@ -215,6 +215,10 @@ button[type=submit]{
     color: white;
 }
 
+.message{
+    padding-top: 15px;
+}
+
 footer{
     padding-top: 30px;
     padding-bottom: 30px;
